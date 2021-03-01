@@ -2,7 +2,7 @@
 
 This repository provides a pytorch framework that can be used to compare different active learning methods under different setups. We additionally propose to use knowledge acquired from unlabeled data by adding unsupervised and semi-supervised methods. Among others, this code allows you to reproduce the following results:
 
-![alt text](https://github.com/osimeoni/RethinkingDeepActiveLearning-private/blob/main/al_results.PNG?raw=true)
+![alt text](https://github.com/osimeoni/RethinkingDeepActiveLearning/blob/main/al_results.PNG?raw=true)
 
 Those results were published in the paper:
 
@@ -92,4 +92,4 @@ If you use our work, please cite us using:
 
 ## Acknowledgements
 
-The code is based on the [Mean Teacher Pytorch](https://github.com/CuriousAI/mean-teacher/tree/master/pytorch) and the [LabelProp-SSDL](https://github.com/ahmetius/LP-DeepSSL) implementations.
+The code is based on the [Mean Teacher Pytorch](https://github.com/CuriousAI/mean-teacher/tree/master/pytorch), the [LabelProp-SSDL](https://github.com/ahmetius/LP-DeepSSL) and the [DeepCluster](https://github.com/facebookresearch/deepcluster) implementations.
